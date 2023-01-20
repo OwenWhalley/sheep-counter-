@@ -1,0 +1,16 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="2LKBTFRmwu(K~bGs84Aw">Number counter</variable></variables><block type="pxt-on-start" id="1m/`To;;nReYit-L.wlZ" x="14" y="-249"><comment pinned="true" h="156" w="295">Created by: Owen Whalley
+Created on: January 16th, 2023
+
+This starts the counter at zero</comment><statement name="HANDLER"><block type="variables_set" id="2QfjaX#N;E-(HV=}@s7V"><field name="VAR" id="2LKBTFRmwu(K~bGs84Aw">Number counter</field><value name="VALUE"><shadow type="math_number" id="}{va_z.gw4wLIPk5Lb]z"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_button_event" id="DQpmBpbxJ#`4=E:u,X8[" x="639" y="-225"><field name="NAME">Button.AB</field><comment pinned="true" h="156" w="321">Created by: Owen Whalley
+Created on: January 16th, 2023
+
+This resets the counter to zero for when the game resets.</comment><statement name="HANDLER"><block type="variables_set" id="Nj8zKO^I$R|F9!(H+gwu"><field name="VAR" id="2LKBTFRmwu(K~bGs84Aw">Number counter</field><value name="VALUE"><shadow type="math_number" id="oAh/V@|GFaRlMpGrkn5P"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_button_event" id=":hD%nkHmjUfVdnT61*lP" x="0" y="0"><field name="NAME">Button.A</field><comment pinned="true" h="167" w="310">Created by: Owen Whalley
+Created on: January 16th, 2023
+
+This makes the counter go up by 1 every time the player presses the a button.</comment><statement name="HANDLER"><block type="variables_change" id="fC+c8rT`^@*v6t-+!_d$"><field name="VAR" id="2LKBTFRmwu(K~bGs84Aw">Number counter</field><value name="VALUE"><shadow type="math_number" id="ms_n@AGA_Ow:+#8uYiGK"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_forever" id="pr+|2mOG~y3U!be-)goA" x="658" y="171"><comment pinned="true" h="183" w="322">Created by: Owen Whalley
+Created on: January 16th, 2023
+
+This makes it so the player always knows the number they counted up to</comment><statement name="HANDLER"><block type="device_show_number" id="RO|`0=J5cTTTh5|X1nqK"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=";lPWaXtL,@581|l[v$_~"><field name="VAR" id="2LKBTFRmwu(K~bGs84Aw">Number counter</field></block></value></block></statement></block><block type="device_button_event" id="9F)Jzxr}{LhqhO~bd,L8" x="-2" y="232"><field name="NAME">Button.B</field><comment pinned="true" h="155" w="305">Created by: Owen Whalley
+Created on: January 16th, 2023
+
+This makes the counter go down by 1 when the player presses the b button.</comment><statement name="HANDLER"><block type="variables_change" id="L$GM*kw]ps]DpY*SjP8t"><field name="VAR" id="2LKBTFRmwu(K~bGs84Aw">Number counter</field><value name="VALUE"><shadow type="math_number" id="@[^J||(IfeC-?P07S:oB"><field name="NUM">-1</field></shadow></value></block></statement></block></xml>
